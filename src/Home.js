@@ -9,14 +9,43 @@ function Home() {
      alt=""
     /> 
     {/* Product id,title,price,rating,image */}
-    <Product 
+   < div className='home__row'>
+   <Product 
      id="12345"
-     title="The Lean Startup: How"
+     title="The Lean Startup: How SENZER Gaming Headset with Microphone - 7.1 Surround Sound, Lightweight and Ultra-Soft Memory Foam Cushion"
      price={11.96}
      rating={5}
-     image="http://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_B01,204,203,200_.jpg"
-    
-    />
+     image="https://m.media-amazon.com/images/I/61IxdporMdL._AC_UY327_FMwebp_QL65_.jpg"/>
+   <Product 
+     id="12345"
+     title="The Lean Startup: How SENZER Gaming Headset with Microphone - 7.1 Surround Sound, Lightweight and Ultra-Soft Memory Foam Cushion"
+     price={11.96}
+     rating={5}
+     image="https://m.media-amazon.com/images/I/61IxdporMdL._AC_UY327_FMwebp_QL65_.jpg"/>
+   
+   </div>
+   <div className='home__row'>
+   <Product 
+     id="12345"
+     title="The Lean Startup: How SENZER Gaming Headset with Microphone - 7.1 Surround Sound, Lightweight and Ultra-Soft Memory Foam Cushion"
+     price={11.96}
+     rating={5}
+     image="https://m.media-amazon.com/images/I/61IxdporMdL._AC_UY327_FMwebp_QL65_.jpg"/>
+   <Product 
+     id="12345"
+     title="The Lean Startup: How SENZER Gaming Headset with Microphone - 7.1 Surround Sound, Lightweight and Ultra-Soft Memory Foam Cushion"
+     price={11.96}
+     rating={5}
+     image="https://m.media-amazon.com/images/I/61IxdporMdL._AC_UY327_FMwebp_QL65_.jpg"/>
+<Product 
+     id="12345"
+     title="The Lean Startup: How SENZER Gaming Headset with Microphone - 7.1 Surround Sound, Lightweight and Ultra-Soft Memory Foam Cushion"
+     price={11.96}
+     rating={5}
+     image="https://m.media-amazon.com/images/I/61IxdporMdL._AC_UY327_FMwebp_QL65_.jpg"/>
+
+
+   </div>
 </div>
   
   ); 

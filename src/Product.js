@@ -4,8 +4,9 @@ import GradeIcon from '@mui/icons-material/Grade';
 function Product({id,title,image,price, rating}) {
   return(
     <div className='product'>
-     <p>{title}</p>
-     <p className='product__'>
+  <div className='product__info'>
+  <p>{title}</p>
+     <p className='product__price'>
         <small>$</small>
         <strong>{price}</strong>
      </p>
@@ -18,6 +19,10 @@ function Product({id,title,image,price, rating}) {
             ))
         }
      </div>
+ </div>
+
+     <img src={image}/>
+     <button>Add To Basket</button>
     </div>
   );
     
